@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: rgb(39, 32, 32);
@@ -17,7 +18,7 @@ body{
 .w400{
     width: 780px;
     height: 400px;
-    background-color: brown;
+    background-color: black;
     text-overflow: clip;
     transition: 900ms;
     cursor: pointer;
@@ -30,8 +31,13 @@ body{
     overflow: hidden;
     transition: 900ms;
     margin: 10px;
-    background-color: brown;
+    background-color: black;
 }
 .w40 h1{
     font-size: 10px;
+    color: beige;
+}
+.w400 h1{
+    color :beige;
+    padding: 10px;
 }
