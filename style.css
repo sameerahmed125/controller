@@ -24,6 +24,11 @@ body{
     align-items: flex-end;
     justify-content: space-between;
 }
+.left-btn{
+    background-color: bisque;
+    border-radius: 50% ;
+    padding: 10px;
+}
 .btn-startd{
     padding:5px 15px;
     color: black;
@@ -82,4 +87,7 @@ body{
 .w400 h1{
     color :beige;
     padding: 10px;
+}
+.btn-left, .btn-right{
+    margin: 0 15px;
 }
