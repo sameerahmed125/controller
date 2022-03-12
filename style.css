@@ -65,8 +65,8 @@ body{
     height: 400px;
     background-color: black;
     overflow: hidden;
-    transition: 1500ms;
-    transition-timing-function: ease-in ;
+    /* transition: 1500ms; */
+    transition-timing-function: step-start ;
     cursor: pointer;
     margin: 10px;
 }
@@ -75,8 +75,8 @@ body{
     height: 40px;
     cursor: pointer;
     overflow: hidden;
-    transition-duration: 1500ms;
-    transition-timing-function: ease-in;
+    /* transition-duration: 1500ms; */
+    transition-timing-function: step-end;
     margin: 10px;
     background-color: black;
 }
